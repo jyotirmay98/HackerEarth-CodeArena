@@ -1,0 +1,38 @@
+Pablo had been trying to convince Gaviria to reduce his punishments by making some deals. This time Gaviria gives him a chance to do so. He gives Pablo a problem to solve. If he solves the problem he will be set free.
+
+
+
+Gaviria is pretty confident that Pablo will not be able to solve the problem but Pablo being rich hired the best problem solver (You) to solve the problem. The statement is -
+
+Given a string S, A Substring of S is said to be SPECIAL if either of the following properties is satisfied
+
+It starts with a vowel and ends with a consonant.
+It starts with a consonant and ends with a vowel.
+Find the number of SPECIAL Substrings of S.
+
+Help Pablo to solve the problem.
+
+INPUT
+
+First line contains an integer T denoting the number of test cases.
+T lines follows, each containing a string S.
+OUTPUT
+
+For each test case print the answer in separate lines.
+CONSTRAINTS
+
+1 ≤ T ≤ 100
+1 ≤ length of string ≤ 5*105
+Sum of length of strings over all test cases ≤ 106
+String consists of lowercase English letters only.
+SAMPLE INPUT 
+2
+aba
+aa
+SAMPLE OUTPUT 
+2
+0
+Explanation
+For 1st test case S='aba'.
+Substrings of S are : a, ab, aba, b, ba, a
+Out of these only 'ab' and 'ba' satisfies the condition for SPECIAL Substring. So the answer is 2.
